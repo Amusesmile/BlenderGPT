@@ -211,7 +211,6 @@ class GPT4AddonPreferences(bpy.types.AddonPreferences):
         name="API Key",
         description="Enter your OpenAI API Key",
         default="",
-        subtype="PASSWORD",
     )
 
     def draw(self, context):
